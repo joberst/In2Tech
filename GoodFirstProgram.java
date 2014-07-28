@@ -12,3 +12,8 @@ public class GoodFirstProgram
 		System.out.println( "I am so excited about In2Tech!" ); 
 	}
 }
+
+/*
+http://programmingbydoing.com/a/a-good-first-program.html
+PBD: Basics and Printing - Exercise 4
+*/
