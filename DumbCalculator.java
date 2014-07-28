@@ -24,5 +24,6 @@ public class DumbCalculator
 	}
 }
 
-// http://programmingbydoing.com/a/a-dumb-calculator.html
-
+/* http://programmingbydoing.com/a/a-dumb-calculator.html
+PBD: Keyboard Input - Exercise 19
+*/
