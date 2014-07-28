@@ -15,3 +15,8 @@ public class LetterToYourself
 		System.out.println( "+--------------------------------------------------------+" );
 	}
 }
+
+/*
+http://programmingbydoing.com/a/letter-to-yourself.html
+PBD: Basics and Printing - Exercise 6
+*/
