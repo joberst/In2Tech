@@ -33,3 +33,4 @@ public class DiceDoublesDoWhile
 } // end class
 
 // http://programmingbydoing.com/a/shorter-double-dice.html
+// Exercise 58
