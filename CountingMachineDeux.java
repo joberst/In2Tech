@@ -33,3 +33,5 @@ public class CountingMachineDeux
 }
 
 // http://programmingbydoing.com/a/counting-machine-revisited.html
+
+// Exercise 67
