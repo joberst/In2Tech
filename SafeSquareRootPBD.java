@@ -28,3 +28,4 @@ public class SafeSquareRootPBD
 }
 
 // http://programmingbydoing.com/a/safe-square-root.html
+// Exercise 60 
