@@ -22,3 +22,4 @@ public class CountingMachine
 }
 
 // http://programmingbydoing.com/a/counting-machine.html
+// Exercise 66
