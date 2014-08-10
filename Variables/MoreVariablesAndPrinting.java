@@ -31,3 +31,4 @@ public class MoreVariablesAndPrinting
 }
 		
 		// http://programmingbydoing.com/a/more-variables-and-printing.html
+        // Exercise 10
