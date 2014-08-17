@@ -2,7 +2,7 @@ public class YachtDice
 {
 	public static void main( String[] args )
 	{
-		int roll1, roll2, roll3, roll4, roll5;
+		int roll1, roll2, roll3, roll4, roll5, roll6;
 		boolean allTheSame;
 
 		do
@@ -12,13 +12,15 @@ public class YachtDice
 			roll3 = 1 + (int) (Math.random()*6);
 			roll4 = 1 + (int) (Math.random()*6);
 			roll5 = 1 + (int) (Math.random()*6);
+            roll6 = 1 + (int) (Math.random()*6);
 			System.out.println("\nYou rolled: " + roll1 + " " + roll2 + " " + roll3 + " " + roll4 + " " + roll5);
 			showDice(roll1);
 			showDice(roll2);
 			showDice(roll3);
 			showDice(roll4);
 			showDice(roll5);
-			allTheSame = (roll1 == roll2 && roll2 == roll3 && roll3 == roll4 && roll4 == roll5);
+            showDice(roll6);
+			allTheSame = (roll1 == roll2 && roll2 == roll3 && roll3 == roll4 && roll4 == roll5 && roll5 == roll6);
 
 		} while ( ! allTheSame );
 		System.out.println("The Yacht!!");
