@@ -75,7 +75,7 @@ public class ItemSort
 
 	public static void main( String[] args )
 	{
-		
+		// hard coded order
 		items.add(new Item( "cool blender", "Housewares", "2345746" ) );
 		items.add(new Item( "cool toaster", "Housewares", "9345746" ) );
 		items.add(new Item( "cool heels", "Shoes", "3345746" ) );
@@ -111,6 +111,7 @@ public class ItemSort
 		printTypes( "Beauty", beauty );
 		printTypes( "Accessories", accessories );
 
+		// Numnber of boxes needed and box contents
 		calculateBoxContents( housewares );
 		calculateBoxContents( shoes );
 		calculateBoxContents( bags );
@@ -179,7 +180,7 @@ public class ItemSort
 		}
 	}
 
-	// Determines number of boxes and which items in each box
+	// determines number of boxes and which items in each box
 	public static List<Box> calculateBoxContents(List<Item> items)
 	{
 		
@@ -219,7 +220,7 @@ public class ItemSort
 		
 	}
 
-	// Diaplays Box details
+	// displays box details
 	public static void printBoxContents()
 	{
 		System.out.println( "Number of Boxes needed for this order: " + boxes.size());
