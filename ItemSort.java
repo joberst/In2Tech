@@ -179,6 +179,7 @@ public class ItemSort
 		}
 	}
 
+	// Determines number of boxes and which items in each box
 	public static List<Box> calculateBoxContents(List<Item> items)
 	{
 		
@@ -206,7 +207,6 @@ public class ItemSort
 			Box box = new Box();
 			System.out.println( "Created New Box");
 			for ( int y = i; y < i + maxItems && y < items.size(); y++ )
-			//for (int y = i; y <= maxItems && y < items.size() ; y++ )
 			{
 				box.addItem(items.get(y));
 				System.out.println( "add item to box");
@@ -219,6 +219,7 @@ public class ItemSort
 		
 	}
 
+	// Diaplays Box details
 	public static void printBoxContents()
 	{
 		System.out.println( "Number of Boxes needed for this order: " + boxes.size());
